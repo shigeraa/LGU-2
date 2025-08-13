@@ -158,3 +158,10 @@ body{
   /*body.mobile-open .backdrop{opacity:1; pointer-events:auto}  DOESNT WORK FOR SOME REASON*/
 }
 
+.cardish h4 {
+  font-weight: 700;
+  color: var(--brand);
+}
+.display-6 {
+  font-weight: 800;
+}
