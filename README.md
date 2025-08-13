@@ -10,7 +10,9 @@ how to run this:
 
 after cloning this repo, go to terminal(in vscode) and then locate the folder where the cloned files located at,
 should be "cd C:\Users\your-user\Documents\School\Codes" for example
+
 and then type python -m http.server 8000 to make a http server
+
 if it didnt work, install a python first in  microsoft store or just search it on google.
 
 after those steps, type http://localhost:8000/ in your browser and you're ready to go
