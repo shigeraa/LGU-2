@@ -9,6 +9,7 @@ if you dont know how to use github. theres a tutorial on youtube on how to add g
 how to run this:
 
 after cloning this repo, go to terminal(in vscode) and then locate the folder where the cloned files located at,
+
 should be "cd C:\Users\your-user\Documents\School\Codes" for example
 
 and then type python -m http.server 8000 to make a http server
