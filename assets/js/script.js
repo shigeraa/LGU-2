@@ -169,7 +169,7 @@ const last = param || localStorage.getItem(storageKeyActive) || 'dashboard.php';
   const logoutSelectors = 'a.logout-link, a[data-action="logout"], .dropdown-menu a[href*="logout"], .dropdown-menu a.logout';
   const logoutLinks = Array.from(document.querySelectorAll(logoutSelectors));
 
-  // fallback: if none found by fancy selector, try the profile dropdown anchor text "Logout" (robust-ish)
+  // fallback: if none found by fancy selector, try the profile dropdown anchor text "Logout"
   if (logoutLinks.length === 0) {
     const anchors = Array.from(document.querySelectorAll('.dropdown-menu a'));
     anchors.forEach(a => {
@@ -179,7 +179,7 @@ const last = param || localStorage.getItem(storageKeyActive) || 'dashboard.php';
 
   // modal elements
   const logoutModalEl = document.getElementById('logoutConfirmModal');
-  if (!logoutModalEl) return; // modal not added yet
+  if (!logoutModalEl) return;
   const logoutModal = new bootstrap.Modal(logoutModalEl, { backdrop: 'static', keyboard: true });
   const confirmBtn = document.getElementById('confirmLogoutBtn');
 
